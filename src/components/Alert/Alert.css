@@ -1,0 +1,21 @@
+.Alert {
+    line-height: 1.5;
+    padding: 10px 20px;
+    background-color: gray;
+    color: #fff;
+}
+
+.Alert--error {
+    /* composes: alert; */
+    background-color: red;
+}
+
+.Alert--warning {
+    /* composes: alert; */
+    background-color: orange;
+}
+
+.Alert--success {
+    /* composes: alert; */
+    background-color: green;
+}
